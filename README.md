@@ -19,6 +19,15 @@ function holaMundo() {
 holaMundo();
 ```
 Para poder ejecutar este archivo se necesita compilar para generar un archivo
-de javascript(con extensión .js). Para hacer esto usamos el comando: `tsc ejemplo1.ts` el cuál nos generará el archivo ejemplo.js.
+de javascript(con extensión .js). Para hacer esto usamos el
+comando: `tsc ejemplo1.ts` el cuál nos generará el archivo ejemplo.js.
 
-Para ejecutar el archivo de javascript usamos node desde una terminal: `node ejemplo1.js`.
+Para ejecutar el archivo de javascript usamos node desde una
+terminal: `node ejemplo1.js`.
+
+## Instalar el paquete ts-node
+
+Para no tener que compilar los archivo .ts de forma manual y después
+ejecutarlos con node, instalaremos el paquete ts-node con el siguiente
+comando: `npm install -g typescript ts-node`. Este paquete nos permite compilar
+y ejecutar con el comando: `ts-node ejemplo1.ts`
