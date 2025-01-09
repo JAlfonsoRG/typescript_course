@@ -39,3 +39,17 @@ Si se intenta usar un tipo de dato diferente al especificado se mostrará
 un error en el editor en tiempo de compilación.
 
 Un ejemplo de asignación de tipo de datos en typescript es: `let numero: number;`
+
+## Asignación de tipo de datos
+
+Hay dos formas de asignar el tipo de dato a las variables:  
+  - Por asignación
+  - Por inferencia
+
+Para asignar un tipo de dato, usamos la sintaxis de dos puntos. Esto es de forma
+explicita. Ejemplo: `let día: number;`.
+
+Por default typescript infiere el tipo de dato por el valor de la variable.
+Ejemplo: `let casa = "Mi casa"`. Esto resulta en una variable tipo string y si
+intentamos guardar otro tipo de valor en la variable "casa" arrojará un error
+en compilación.
