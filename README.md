@@ -31,3 +31,11 @@ Para no tener que compilar los archivo .ts de forma manual y después
 ejecutarlos con node, instalaremos el paquete ts-node con el siguiente
 comando: `npm install -g typescript ts-node`. Este paquete nos permite compilar
 y ejecutar con el comando: `ts-node ejemplo1.ts`
+
+## Tipos básicos de Typescript
+
+Los tipos básicos de TS son los tipos primitivos: number, string and boolean.
+Si se intenta usar un tipo de dato diferente al especificado se mostrará
+un error en el editor en tiempo de compilación.
+
+Un ejemplo de asignación de tipo de datos en typescript es: `let numero: number;`
